@@ -3,15 +3,19 @@
 
 }
 
+.list {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+
 .shop {
+    background-color: black;
     flex-basis: 25%;
     border: 1px dotted black;
- 
+    color: ivory;
+    text-align: center;
 }
- .list {
-
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: space-around;
-     
- }
